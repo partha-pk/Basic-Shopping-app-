@@ -1,0 +1,58 @@
+<head>
+<meta charset="ISO-8859-1">
+<title>Login page</title>
+<style>
+h1{font-size: 50px; color: white; text-align: center;}
+h2{font-size: 30px; color: white; text-align: center;}
+h4{font-size: 30px; color: Black; text-align: center;}
+body{background-image:url("img/hd-wallpaper-ivy-leaves-207301.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+</style>
+</head>
+
+<body>
+<body>
+<form method="post" action = "Loginvalidation">
+<h1> <label> Search for products</label> </h1>
+
+<h2>
+<label>Mobiles</label>
+<select name="product">
+<option>Select</option>
+<option value="oneplus 6">oneplus 6</option>
+<option value="Iphone x">Iphone x</option>
+<option value="Samsung s8">Samsung s8</option>
+<option value="Xiomi">Xiomi</option>
+</select>
+
+<br>
+<label>Quantity</label>
+<input type="text" placeholder="Select" name="qty" min="1">
+<br>
+<br>
+<br>
+<label>Miscellaneous</label>
+<select name="product2">
+<option>Select</option>
+<option value="Phone case">Phone case</option>
+<option value="USB Cable">USB Cable</option>
+<option value="JBL Headphones">JBL Headphones</option>
+<option value="Bose Bluetooth Speaker">Bose Bluetooth Speaker<option>
+</select>
+<br>
+
+<label>Quantity</label>
+<input type="text" placeholder="Select" name="qty2" min="1">
+
+</h2>
+<br>
+
+<h4>
+<input type = "text" hidden="true" value="4" name = "fs">
+<input type = "submit"  value = "Add to cart">
+</h4>
+
+</form>
+</body>
+</html>
