@@ -1,2 +1,2 @@
-# Basic-SHopping-app-
+# Basic-Shopping-app-
 Shopping application using Single Servlet/mysql/html5  
